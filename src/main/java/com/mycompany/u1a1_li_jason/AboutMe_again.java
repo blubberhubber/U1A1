@@ -26,35 +26,27 @@ public class AboutMe_again extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTextField1 = new javax.swing.JTextField();
         jScrollPane2 = new javax.swing.JScrollPane();
-        Info = new javax.swing.JTextArea();
+        InfoTextArea = new javax.swing.JTextArea();
+        titleLable = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("About Me");
 
-        jTextField1.setEditable(false);
-        jTextField1.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField1.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
-        jTextField1.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField1.setText("About Me");
-        jTextField1.setAlignmentX(10.5F);
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
+        InfoTextArea.setEditable(false);
+        InfoTextArea.setBackground(new java.awt.Color(204, 204, 204));
+        InfoTextArea.setColumns(20);
+        InfoTextArea.setFont(new java.awt.Font("Ink Free", 0, 14)); // NOI18N
+        InfoTextArea.setForeground(new java.awt.Color(0, 0, 0));
+        InfoTextArea.setRows(5);
+        InfoTextArea.setText("Name: Jason\n\nSchool: Agincourt Collegiate Institute\nSchool Board: Toronto District School Board \n\nFavorite Programming Language: Python\nLeast Favorite Sport: Golfing\nDream Job: Business Owner\nLeast Favorite Subject: Physics \n\nOver the summer, I played an insane amount of video games.\n");
+        InfoTextArea.setCaretColor(new java.awt.Color(51, 153, 200));
+        InfoTextArea.setFocusable(false);
+        jScrollPane2.setViewportView(InfoTextArea);
 
-        Info.setEditable(false);
-        Info.setBackground(new java.awt.Color(204, 204, 204));
-        Info.setColumns(20);
-        Info.setFont(new java.awt.Font("Ink Free", 0, 14)); // NOI18N
-        Info.setForeground(new java.awt.Color(0, 0, 0));
-        Info.setRows(5);
-        Info.setText("Name: Jason\n\nSchool: Agincourt Collegiate Institute\nSchool Board: Toronto District School Board \n\nFavorite Programming Language: Python\nLeast Favorite Sport: Golfing\nDream Job: Business Owner\nLeast Favorite Subject: Physics \n\nOver the summer, I played an insane amount of video games.\n");
-        Info.setCaretColor(new java.awt.Color(51, 153, 200));
-        Info.setFocusable(false);
-        jScrollPane2.setViewportView(Info);
+        titleLable.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
+        titleLable.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        titleLable.setText("About Me");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -63,29 +55,25 @@ public class AboutMe_again extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 392, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(75, 75, 75)
+                        .addComponent(titleLable, javax.swing.GroupLayout.PREFERRED_SIZE, 266, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(77, 77, 77)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(20, 20, 20)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 392, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(13, 13, 13)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
+                .addComponent(titleLable, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -123,8 +111,8 @@ public class AboutMe_again extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextArea Info;
+    private javax.swing.JTextArea InfoTextArea;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JLabel titleLable;
     // End of variables declaration//GEN-END:variables
 }
