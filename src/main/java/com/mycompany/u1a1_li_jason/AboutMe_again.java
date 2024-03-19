@@ -51,7 +51,7 @@ public class AboutMe_again extends javax.swing.JFrame {
         Info.setFont(new java.awt.Font("Ink Free", 0, 14)); // NOI18N
         Info.setForeground(new java.awt.Color(0, 0, 0));
         Info.setRows(5);
-        Info.setText("Name: Jason\n\nSchool: Agincourt Collegiate Institute\nSchool Board: Toronto District School Board \n\nFavorite Programming Language: Python\nLeast Favorite Sport: Golfing\nDream Job: Business Owner\nLeast Favorite Subject: Physics \n\nOver the summer, I played an insane amount of video games.\n");
+        Info.setText("Name: Jason\nType Something\nSchool: Agincourt Collegiate Institute\nSchool Board: Toronto District School Board \n\nFavorite Programming Language: Python\nLeast Favorite Sport: Golfing\nDream Job: Business Owner\nLeast Favorite Subject: Physics \n\nOver the summer, I played an insane amount of video games.\n");
         Info.setCaretColor(new java.awt.Color(51, 153, 200));
         Info.setFocusable(false);
         jScrollPane2.setViewportView(Info);
