@@ -44,9 +44,9 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
               <Component id="titleLable" min="-2" pref="51" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jScrollPane2" min="-2" pref="221" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -73,7 +73,7 @@
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="Name: Jason&#xa;&#xa;School: Agincourt Collegiate Institute&#xa;School Board: Toronto District School Board &#xa;&#xa;Favorite Programming Language: Python&#xa;Least Favorite Sport: Golfing&#xa;Dream Job: Business Owner&#xa;Least Favorite Subject: Physics &#xa;&#xa;Over the summer, I played an insane amount of video games.&#xa;"/>
+            <Property name="text" type="java.lang.String" value="Name: Jason&#xa;&#xa;School: Agincourt Collegiate Institute&#xa;School Board: Toronto District School Board &#xa;&#xa;Favorite Programming Language: Python&#xa;Least Favorite Sport: Golfing&#xa;Dream Job: Business Owner&#xa;Least Favorite Subject: Physics &#xa;&#xa;Over the summer, I played an insane amount &#xa;of video games.&#xa;"/>
             <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="c8" green="99" red="33" type="rgb"/>
             </Property>

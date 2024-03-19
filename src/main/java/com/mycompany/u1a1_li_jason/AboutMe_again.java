@@ -39,7 +39,7 @@ public class AboutMe_again extends javax.swing.JFrame {
         InfoTextArea.setFont(new java.awt.Font("Ink Free", 0, 14)); // NOI18N
         InfoTextArea.setForeground(new java.awt.Color(0, 0, 0));
         InfoTextArea.setRows(5);
-        InfoTextArea.setText("Name: Jason\n\nSchool: Agincourt Collegiate Institute\nSchool Board: Toronto District School Board \n\nFavorite Programming Language: Python\nLeast Favorite Sport: Golfing\nDream Job: Business Owner\nLeast Favorite Subject: Physics \n\nOver the summer, I played an insane amount of video games.\n");
+        InfoTextArea.setText("Name: Jason\n\nSchool: Agincourt Collegiate Institute\nSchool Board: Toronto District School Board \n\nFavorite Programming Language: Python\nLeast Favorite Sport: Golfing\nDream Job: Business Owner\nLeast Favorite Subject: Physics \n\nOver the summer, I played an insane amount \nof video games.\n");
         InfoTextArea.setCaretColor(new java.awt.Color(51, 153, 200));
         InfoTextArea.setFocusable(false);
         jScrollPane2.setViewportView(InfoTextArea);
@@ -67,9 +67,9 @@ public class AboutMe_again extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addComponent(titleLable, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(12, Short.MAX_VALUE))
         );
 
         pack();
